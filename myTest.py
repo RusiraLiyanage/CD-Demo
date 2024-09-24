@@ -4,6 +4,8 @@ from StringProcessor import reverse_string, is_palindrome, to_uppercase
 
 
 class TestStringProcessor(unittest.TestCase):
+    
+    #simulating a code change to see in the Actions
     def test_reverse_string(self):
         self.assertEqual(reverse_string("hello"), "olleh")
         self.assertEqual(reverse_string("abc"), "cba")
